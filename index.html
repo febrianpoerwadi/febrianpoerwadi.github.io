@@ -10,6 +10,9 @@
   <!-- Boostarp Icon -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
+<!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 <!-- My CSS -->
 <link rel="stylesheet" type="text/css" href="style.css">
 
@@ -46,8 +49,8 @@
 
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
-    <img src="img/febrian3.jpg" alt="Febrian Poerwadi" width="250" class="rounded-circle img-thumbnail">
-  <h1 class="display-4">Febrian Poerwadi</h1>
+    <img src="img/febrian3.jpg" alt="Febrian Poerwadi" width="250" class="rounded-circle img-thumbnail" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
+  <h1 class="display-4" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1500">Febrian Poerwadi</h1>
   <p class="lead">Programming Enthusiast | Student</p>
   <br>
   <p> <i class="bi bi-instagram"></i> Instagram : @febrianpoerr_</p>
@@ -59,17 +62,17 @@
 
     <!-- About -->
     <section id="about">
-      <div class="container">
+      <div class="container" data-aos="fade-down" data-aos-duration="2000">
         <div class="row text-center mb-3">
           <div class="col"></div>
          <font face="Lexend"><h2><b>About Me</b></h2></font>
          </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-         <div class="col-md-4">
+         <div class="col-md-4" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1500">
          <p>Halo! Perkenalkan nama saya adalah Febrian Dwinanda Poerwadi saya Lahir pada tanggal 20 Febuari 2007,Bandung dan Sekarang saya sudah kelas 10 SMA dan berskolah di SMAK3 Bina Bakti Bandung yang terletak di Jalan Taman Kopo Indah. Dan pastinya saya tinggal di Bandung,Jawa Barat.</p>
        </div>
-       <div class="col-md-4">
+       <div class="col-md-4" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1500">
          <p>Saya sudah suka dengan komputer sejak komputer saya masih memakai Pentium 4, Mulai SD kelas 5 baru mengenal akan Programming akan tetapi saya belum mengetahui apa-apa. Kemudian barulah SMP saya membuat website HTML pertama saya yang hanya bertulisan Hello World! dan saya juga belajar menggunakan visual basic untuk membuat Program. Kemudian sekarang saya mulai belajar kembali HTML. Saya belajar HTML sendiri dari Youtube!.</p>
        </div>
       </div>
@@ -87,7 +90,7 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-right" data-aos-delay="200" data-aos-duration="500">
   <img src="project/febrian1.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <p class="card-text">Pada 20 April 2019 Saya di Baptis di Gereja Santo Martinus Bandung.</p>
@@ -95,7 +98,7 @@
 </div>
 </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-up" data-aos-delay="200" data-aos-duration="500">
   <img src="project/febrian10.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <p class="card-text">Foto ini diambil saat saya makan di Ayam Goreng Santa Mari di daerah Cirebon.</p>
@@ -103,7 +106,7 @@
 </div>
 </div> 
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-delay="200" data-aos-duration="500">
   <img src="project/febrian8.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <p class="card-text">Waktu saya pusing akan ujian praktek SMP, Saya mengambil foto ini untuk bersenang-senang.</p>
@@ -111,7 +114,7 @@
  </div>
 </div>
     <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-delay="200" data-aos-duration="700">
   <img src="project/febrian2.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <p class="card-text">Foto ini di ambil waktu saya pergi ke Restoran Queen.</p>
@@ -120,7 +123,7 @@
 </div>
 
 <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-right" data-aos-delay="200" data-aos-duration="700">
   <img src="project/febrian5.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <p class="card-text">Foto Iseng saya bermain komputer dan boseng gk tau mau ngapain.</p>
@@ -179,5 +182,11 @@
 </footer>
     <!-- Akhir Footer -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+</script>
+
   </body>
 </html>
